@@ -239,6 +239,8 @@ footer p{
 
 
 /* Media Query */
+
+/* small */
 @media screen and (max-width: 576px){
     header div{
         text-align: center;
@@ -272,6 +274,8 @@ footer p{
         gap: 5rem;
     }
 }
+
+/* medium */
 @media screen and (min-width: 576px) and (max-width: 768px){
     header div{
         text-align: center;
@@ -304,6 +308,8 @@ footer p{
     }
 
 }
+
+/* large */
 @media screen and (min-width: 768px) and (max-width: 992px){
     header div{
         padding-right: 3rem;
@@ -325,6 +331,8 @@ footer p{
         padding-right: 1rem;
     }
 }
+
+/* extra-large */
 @media screen and (min-width: 992px) and (max-width: 1200px){
     header div{
         padding-right: 3rem;
