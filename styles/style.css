@@ -186,6 +186,57 @@ header div{
 }
 /* mindset section end */
 
+/* footer start */
+footer{
+    background-color: #151414;
+    color: white;
+    padding-top: 8.125rem;
+    padding-bottom: 8.125rem;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 19.4375rem;
+}
+.footer-left h2{
+    font-size: 2.8125rem;
+    font-weight: 700;
+
+}
+footer p{
+    font-size: 1rem;
+    line-height: 1.625rem;
+}
+.footer-description{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.footer-phone{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.footer-icons a{
+    text-decoration: none;
+}   
+.foot-icon{
+    margin-left: 1.125rem;
+    margin-right: 1.125rem;
+}
+.footer-right input{
+    width: 20.3125rem;
+    padding: 1.375rem;
+    border: 1px solid white;
+    border-radius: 8px;
+    background: transparent;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.footer-right input::placeholder{
+    color: white;
+}
+/* footer end */
+
 
 /* Media Query */
 @media screen and (max-width: 576px){
@@ -215,6 +266,11 @@ header div{
         width: 100%;
         height: 100%;
     }
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 5rem;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 768px){
     header div{
@@ -241,6 +297,11 @@ header div{
         width: 100%;
         height: 100%;
     }
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 5rem;
+    }
 
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
@@ -259,6 +320,10 @@ header div{
         width: 100%;
         height: 100%;
     }
+    .footer-left{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px){
     header div{
@@ -275,6 +340,11 @@ header div{
     .mindset-container img{
         width: 100%;
         height: 100%;
+    }
+    .footer-content{
+        gap: 15rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
 
