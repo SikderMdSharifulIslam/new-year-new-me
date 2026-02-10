@@ -26,6 +26,10 @@
     font-size: 4.063rem;
     font-weight: 700;
 }
+.title-2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
 .description{
     color: #444343;
     font-size: 1rem;
@@ -40,6 +44,9 @@
     font-weight: 600;
     font-size: 1.25rem;
     cursor: pointer;
+}
+.color-green{
+    color: #16D887;
 }
 
 
@@ -66,17 +73,74 @@ header div{
 /* header end */
 
 
+/* section start */
+#failure{
+    margin-top: 8.125rem;
+    margin-bottom: 8.125rem;
+}
+.failure-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5.438rem;
+}
+.failure-img{
+    max-width: 569px;
+}
+.failure-img img{
+    width: 100%;
+}
+.failure-text{
+    margin-top: 14.938rem;
+}
+.failure-text h2{
+    margin-bottom: 1.5rem;
+}
+.failure-text p{
+    max-width: 416px;
+    margin-bottom: 1rem;
+}
+.failure-text ul li{
+    list-style: none;
+    margin-bottom: 8px;
+    color: #444343;
+    font-size: 1rem;
+    line-height: 1.625rem;
+}
+.failure-text ul li span{
+    margin-right: 10px;
+}
+
+/* section end */
+
 
 /* Media Query */
 @media screen and (max-width: 576px){
     header div{
         text-align: center;
     }
+    .failure-content{
+        flex-direction: column;
+    }
+    .failure-text {
+        margin-top: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 768px){
     header div{
         text-align: center;
     }
+    .failure-content{
+        flex-direction: column;
+    }
+    .failure-text {
+        margin-top: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
     header div{
