@@ -45,6 +45,16 @@
     font-size: 1.25rem;
     cursor: pointer;
 }
+.btn-2{
+    background-color: #ffff;
+    color: #F15B22;
+    padding: 1.25rem 2.1875rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
 .color-green{
     color: #16D887;
 }
@@ -142,6 +152,40 @@ header div{
 }
 /* myPlans section end */
 
+/* mindset section start */
+#mindset{
+    margin-bottom: 8.125rem;
+}
+.mindset-container{
+    background: url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: 8px;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+    padding-left: 4rem;
+}
+.mindset-container{
+    position: relative;
+}
+.mindset-container img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.mindset-content{
+    z-index: 2;
+    position: relative;
+}
+.mindset-content h2{
+    margin-bottom: 1.5rem;
+    color: #ffff;
+}
+/* mindset section end */
+
 
 /* Media Query */
 @media screen and (max-width: 576px){
@@ -163,6 +207,14 @@ header div{
         grid-template-columns: repeat(1, 1fr);
         gap: 5.375rem;
     }
+    #mindset{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .mindset-container img{
+        width: 100%;
+        height: 100%;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 768px){
     header div{
@@ -181,6 +233,14 @@ header div{
         grid-template-columns: repeat(2, 1fr);
         gap: 5.375rem;
     }
+    #mindset{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .mindset-container img{
+        width: 100%;
+        height: 100%;
+    }
 
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
@@ -191,6 +251,14 @@ header div{
         grid-template-columns: repeat(2, 1fr);
         gap: 5.375rem;
     }
+    #mindset{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .mindset-container img{
+        width: 100%;
+        height: 100%;
+    }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px){
     header div{
@@ -199,6 +267,14 @@ header div{
     .myPlans-cards{
         grid-template-columns: repeat(2, 1fr);
         gap: 5.375rem;
+    }
+    #mindset{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .mindset-container img{
+        width: 100%;
+        height: 100%;
     }
 }
 
