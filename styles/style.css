@@ -3,3 +3,89 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* utility css */
+.container{
+    max-width: 1141px;
+    margin: 0 auto;
+}
+
+.text-black-1{
+    color: #151414;
+}
+.title-1{
+    font-size: 4.063rem;
+    font-weight: 700;
+}
+.description{
+    color: #444343;
+    font-size: 1rem;
+    line-height: 1.625rem;
+}
+.btn-1{
+    background-color: #F15B22;
+    color: #FFFF;
+    padding: 1.25rem 1.563rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+
+
+/* header start */
+header{
+    background: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header div{
+    padding-top: 13.5rem;
+    padding-bottom: 10.375rem;
+    text-align: right;
+}
+.banner h1{
+    margin-bottom: 1.5rem;
+}
+.banner p{
+    margin-bottom: 2rem;
+}
+
+/* header end */
+
+
+
+/* Media Query */
+@media screen and (max-width: 576px){
+    header div{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 768px){
+    header div{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    header div{
+        padding-right: 3rem;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    header div{
+        padding-right: 3rem;
+    }
+}
+
